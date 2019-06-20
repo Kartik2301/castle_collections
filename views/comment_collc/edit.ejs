@@ -1,0 +1,15 @@
+<% include ../partials/header %>
+<h1 style="text-align:center">Add Castles here</h1>
+<div class="container">
+<form action="/castles/<%= castle_id %>/comments/<%= comment._id %>?_method=PUT" method="POST">
+  <div class="form-group">
+    <label for="inp1">Add new Comment</label>
+    <input type="text" class="form-control" name="comment[text]" id="inp1" value="<%=comment.text%>">
+  </div>
+  <div class="form-group">
+    <button class="btn btn-lg btn-primary btn-block">Submit</button>
+ </div>
+</form>
+</div>
+
+<% include ../partials/footer %>
