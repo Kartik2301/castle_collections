@@ -36,14 +36,14 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(https://images.pexels.com/photos/1903702/pexels-photo-1903702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+  background-image: url(https://images4.alphacoders.com/719/thumb-350-719074.jpg); 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(https://images.pexels.com/photos/824678/pexels-photo-824678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images5.alphacoders.com/710/thumb-350-710811.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500);
+  background-image: url(https://images3.alphacoders.com/869/thumb-350-869197.jpg);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
